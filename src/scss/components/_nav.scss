@@ -1,0 +1,58 @@
+.nav {
+    height: 100px;
+    margin-bottom: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    &__link {
+        margin: 0 10px;
+        font-size: 16px;
+        line-height: 19px;
+        color: #4F5665;
+        text-decoration: none;
+        width: 15px;
+        height: 15px;
+    }
+
+    &__logo {
+        text-decoration: none;
+        background: url('/assets/nav/nav_logo.svg') center/cover no-repeat;
+        width: 149px;
+        height: 35px;
+    }
+
+    &__loggin-in {
+        padding-right: 20px;
+        text-decoration: none;
+    }
+
+    &__loggin-up {
+    // width: 220px;
+    // height: 30px;
+    // border: 3px solid red;
+    padding: 13px 45px;
+    border-radius: 100rem;
+    border: 1px solid;
+    font-weight: 500;
+    color: $button-color;
+    background: $primary-color;
+    }
+
+    &__menu--btn {
+        display: none;
+    }
+
+    @media screen and (max-width: 1024px) {
+        &__menu--btn {
+            display: block;
+        }
+        
+        &__container,
+        &__loggin-in,
+        &__loggin-up {
+            display: none;
+        }
+}
+}

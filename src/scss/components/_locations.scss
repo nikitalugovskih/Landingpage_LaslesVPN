@@ -1,0 +1,39 @@
+.locations {
+    max-width: 1335px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+    &__title {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    &__subtitle {
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 155px;
+    }
+
+    &__map {
+        display: flex;
+        justify-content: center;
+        max-width: 1060px;
+    }
+
+    &__icons {
+        max-width: 1100px;
+        height: 208px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin: 15px 15px;
+    }
+
+    &__companies {
+        margin-right: 59px;
+        flex-grow: 1;
+    }
+}
